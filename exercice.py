@@ -9,8 +9,8 @@ def average(a: float, b: float, c: float) -> float:
     moyenne = 0
     valeurs = [a,b,c]
     
-    moyenne = valeurs[i] for i in valeurs
-    
+    moyenne += valeurs[i] for i in valeurs
+    moyenne
 
     return 0.0
 
