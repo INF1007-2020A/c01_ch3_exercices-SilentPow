@@ -10,7 +10,7 @@ def average(a: float, b: float, c: float) -> float:
     valeurs = [a,b,c]
     
     for i in valeurs:
-        moyenne += valeurs
+        moyenne += valeurs[i]
     moyenne / len(valeurs)
 
     return moyenne
