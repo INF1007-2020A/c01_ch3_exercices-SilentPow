@@ -10,9 +10,9 @@ def average(a: float, b: float, c: float) -> float:
     valeurs = [a,b,c]
     
     moyenne += valeurs[i] for i in valeurs
-    moyenne / len()
+    moyenne / len(valeurs)
 
-    return 0.0
+    return moyenne
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
