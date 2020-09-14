@@ -6,7 +6,9 @@ import math
 
 
 def average(a: float, b: float, c: float) -> float:
-    moyenne = 
+    moyenne = 0
+    
+
     return 0.0
 
 
