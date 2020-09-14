@@ -8,7 +8,7 @@ import math
 def average(a: float, b: float, c: float) -> float:
     moyenne = 0
     valeurs = [a,b,c]
-    
+    i: int
     for i in valeurs:
         moyenne += valeurs[i]
     moyenne / len(valeurs)
