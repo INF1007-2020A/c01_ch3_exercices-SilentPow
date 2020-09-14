@@ -28,7 +28,7 @@ def to_degrees(angle_rads: float) -> tuple:
     minutes = math.trunc((valeurExacte - angle_degrees)*60)
     seconds = math.round(valeurExacte - angle_degrees - minutes / 60)
 
-    return angle_degrees, , 0.0
+    return angle_degrees, minutes, seconds
 
 
 def to_celsius(temperature: float) -> float:
