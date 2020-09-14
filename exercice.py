@@ -26,6 +26,7 @@ def to_degrees(angle_rads: float) -> tuple:
     valeurExacte = angle_rads * 180 / math.pi
     angle_degrees = math.trunc(valeurExacte)
     minutes = math.trunc((valeurExacte - angle_degrees)*60)
+    seconds = 
 
     return 0.0, 0.0, 0.0
 
