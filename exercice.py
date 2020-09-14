@@ -7,7 +7,7 @@ import math
 
 def average(a: float, b: float, c: float) -> float:
     moyenne = 0
-    valeur
+    valeurs = [a,b,c]
 
     return 0.0
 
